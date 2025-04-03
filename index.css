@@ -16,14 +16,6 @@ body{
   gap: 60%;
   margin-bottom: 3%;
 }
-#hello{
-  margin-bottom: -8%;
-  cursor: pointer;
-}
-#phone-no{
-  margin-bottom: -9%;
-  cursor: pointer;
-}
 .phone-line p{
   margin-left: 15%;
 }
