@@ -1,7 +1,4 @@
 
-/* 2nd pic couple https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ_eFv-Hkmh92_VLIx71roDXWloUSbrQQkKsjGwYE-mfBDSZ4zicar-XkJkC-_WqXhuvQ&usqp=CAU*/ 
-/* 3rd pic image https://m.media-amazon.com/images/I/71rtaNKdh+L.jpg*/
-/*https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-RQiVlZdfxBU0PYaP5c-CVgM1a5gxRjKbNA&s*/
 body{
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,12 +9,10 @@ body{
   background-color: black;
   color: white;
   margin-top: -0.5%;
-  font-family: poppins;
 }
 .contact-info{
   display: flex;
   margin-left: 15%;
-  font-family: poppins;
   gap: 60%;
   margin-bottom: 3%;
 }
@@ -63,14 +58,13 @@ body{
 }
 .family-txt{
   position: absolute;
-  font-family: poppins;
   margin-top: -20%;
   margin-left: 40%;
   color: white;
   background: rgba(0, 0, 0, 0.5);
   width: 99%;
-  height: 77.5%;
-  top: 65.4%;
+  height: 125.5%;
+  top: 61.5%;
   left: -39.5%;
   text-align: center;
 }
@@ -98,19 +92,13 @@ h1{
       height: 75px;
       width: 190px;
       color: white;
-      font-family: poppins;
       cursor: pointer;
 }
-.family-txt button:hover{
-  color: black;
-  background-color: rgb(193, 215, 223);
-  border: solid 1px rgb(193, 215, 223);
-}
+
 .combine{
   display: flex;
   margin-left: 10%;
   gap: 15%;
-  font-family: poppins;
   margin-bottom: 8%;
 }
 .left-container img{
@@ -132,18 +120,19 @@ h1{
   margin-bottom: 5%;
   margin-top: 60px;
 }
-.rectangle-border {
+.blue-border {
   z-index: 1;
   width: 450px;
   height: 300px;
   border: solid rgb(103, 123, 189) 15px;
   position: absolute;
   top: 170%;
-  left: 40%;
+  left: 45%;
 }
 .right-txt{
   display: flex;
   gap: 10%;
+  
 }
 .right-txt h3{
   margin-top: 20.5%;
@@ -151,7 +140,7 @@ h1{
   font-size: 190%;
 }
 .right-txt p{
-  margin-top: 9%;
+  margin-top: 19%;
 }
 .right-txt a{
   margin-top: 15%;
@@ -163,7 +152,7 @@ h1{
   display: flex;
   gap: 4%;
   margin-left: 12%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 .logos #first-logo{
   height: 3%;    width: 40%;
@@ -214,6 +203,7 @@ h1{
   .storage{
       cursor: pointer;
       border:none 1px;
+      background-color: #4787cc;
       padding:4%;
   }
   .transport{
@@ -255,7 +245,11 @@ h1{
       width:19.5%;
       height:260px
   }
-  
+  .question p{
+    margin-top: -25%;
+    margin-left: -49%;
+    color: white;
+  }
 
 
 
@@ -375,11 +369,6 @@ h1{
   margin-top: 15%;      
   }
   
-/* #video{
-    width:20%;
-    position: relative;
-    overflow: hidden;
-} */
 .roundplay-button{
   background: rgba(0, 0, 0, 0.5);
   width: 99%;
@@ -408,4 +397,83 @@ h1{
   background-color: yellow;
   width: 45%;
 }
+.our-testimonals a{
+  color: orange;
+  font-size: 130%;
+  cursor: pointer;
+}
+.our-testimonals h2{
+  font-size: 300%;
+}
 
+.our-testimonals{
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: -5%;
+
+}
+.testimonal p{
+margin-left: -35%; 
+}
+.testimonal img{
+  margin-left: -35%;
+}
+.testimonal a{
+  margin-left: -35%;
+}
+.text-testimonals{
+  line-height: 30px;
+  display: flex;
+
+  
+
+}
+  .wholearticle{
+  margin-top: 5%;
+  text-align: center;
+  }
+  .yellow-link{
+  color: #FFA600;
+  }
+
+.text-testimonals a{
+  cursor: pointer;
+  color: orange;
+}
+.text-testimonals img{
+  height: 5%;
+
+}
+.testimonal svg{
+margin-left: -25%;
+}
+.news{
+  text-align: center;
+  margin-top: -25%;
+
+}
+.news a{
+  color: orange;
+  font-size: 120%;
+  cursor: pointer;
+  
+}
+
+.new{
+  display: flex;
+  margin-left: 31%;
+  gap: 1.9%;
+  margin-bottom: 4%;
+}
+.new input{
+  width: 30%;
+  border: none;
+  background-color: rgb(252, 244, 227);
+}
+.new button{
+  height: 50px;
+  width: 220px;
+  background-color: rgb(255, 187, 0);
+  border: none;
+  cursor: pointer;
+}
