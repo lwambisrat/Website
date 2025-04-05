@@ -242,10 +242,7 @@ h1{
     margin-left: -49%;
     color: white;
   }
-
-
-
-  .container {
+  .help {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -389,35 +386,19 @@ h1{
   background-color: yellow;
   width: 45%;
 }
-.our-testimonals a{
-  color: orange;
-  font-size: 130%;
-  cursor: pointer;
+.our-testimonals p{
+  cursor: pointer; 
 }
-.our-testimonals h2{
-  font-size: 300%;
-}
-
-.our-testimonals{
+.our-testimonials{
   text-align: center;
   margin-bottom: 5%;
-  margin-left: -5%;
-
 }
-.testimonal p{
-margin-left: -35%; 
-}
-.testimonal img{
-  margin-left: -35%;
-}
-.testimonal a{
-  margin-left: -35%;
-}
-.text-testimonals{
-  line-height: 30px;
+.text-testimonals {
   display: flex;
 
-  
+}
+.testimonal img{
+width: 5%;
 
 }
   .wholearticle{
@@ -432,25 +413,14 @@ margin-left: -35%;
   cursor: pointer;
   color: orange;
 }
-.text-testimonals img{
-  height: 5%;
-
-}
-.testimonal svg{
-margin-left: -25%;
-}
 .news{
   text-align: center;
-  margin-top: -25%;
-
 }
 .news a{
   color: orange;
   font-size: 120%;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
-
 .new{
   display: flex;
   margin-left: 31%;
@@ -468,4 +438,128 @@ margin-left: -25%;
   background-color: rgb(255, 187, 0);
   border: none;
   cursor: pointer;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 40px;
+}
+
+.blog {
+  background-color: #fff;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.article {
+  width: calc(33.33% - 20px);
+  color: white;
+}
+.article img {
+  width: 100%;
+}
+.article-content p {
+  font-size:medium;
+  margin-top: -200px;
+  text-align: center;
+}
+
+.article-content h3 {
+  font-size:150%;
+  margin-top: -10px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  background-color:#f4b400;
+}
+
+.top {
+  background-color: #f4b400;
+  color:black;
+  margin-top: 30px;
+}
+
+.top h1 {
+  font-size:35px;
+  color: white;
+}
+
+.discover-btn {
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 85%;
+  color: white;
+}
+
+.discover-btn:hover {
+  background-color: #555;
+  
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 220px;
+  font-size: medium;
+
+}
+
+.footer-column p,
+.footer-column ul {
+  font-size: small;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.icons a {
+  color: white;
+  margin-right: 10px;
+}
+
+.icons a:hover {
+  color: #f4b400;
+}
+
+
+.copyright {
+  text-align: center;
+  padding: 20px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f4b400;
+  color: white;
+  border: none;
+  padding: 10px;
 }
